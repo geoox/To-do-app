@@ -1,0 +1,19 @@
+header{
+    margin-top: 5% !important;
+    width: 60% !important;
+    margin:auto;
+}
+
+header .input-group.mb-3{
+    width:90%;
+}
+
+header button{
+    margin-left: 2% !important;
+    height: 90%;
+}
+
+#list{
+    width:80% !important;
+    margin:auto;
+}
