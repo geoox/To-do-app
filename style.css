@@ -17,3 +17,11 @@ header button{
     width:80% !important;
     margin:auto;
 }
+
+li.list-group-item .btns{
+    float: right;
+}
+
+.remove{
+    display:none;
+}
