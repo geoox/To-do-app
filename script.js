@@ -16,6 +16,7 @@ document.getElementById('addButton').addEventListener('click',function(){
 
     if(value){
         $('.list-group').append(htmlGenerator);
+        document.getElementById('inputer').value='';
         htmlGenerator='';
         
         document.getElementById('delete-btn'+i).addEventListener('click',function(){
@@ -24,7 +25,6 @@ document.getElementById('addButton').addEventListener('click',function(){
 
         document.getElementById('done-btn'+i).addEventListener('click',function(){
             this.src="resources/check-all.png";
-            this.id='done-btn2';
         })
 
         i=i+1;
@@ -36,19 +36,6 @@ document.getElementById('addButton').addEventListener('click',function(){
 
 });
 
-
-
-
-// document.getElementById('delete-btn').addEventListener('click',function(){
-//     this.parentElement.parentElement.remove();
-
-// })
-
-// for(let index=0;index<i;index++){
-//     document.getElementById('delete-btn'+index).addEventListener('click',function(){
-//         this.parentElement.parentElement.remove();
-//     })
-// }
 
 
 

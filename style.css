@@ -4,13 +4,16 @@ header{
     margin:auto;
 }
 
+
+
 header .input-group.mb-3{
-    width:90%;
+    width:91%;
 }
 
 header button{
     margin-left: 2% !important;
     height: 90%;
+    float: right;
 }
 
 #list{
@@ -24,4 +27,14 @@ li.list-group-item .btns{
 
 .remove{
     display:none;
+}
+
+@media (max-width: 991.98px) {
+    li.list-group-item{
+        margin-top: 5%;
+    }
+}
+
+.colored{
+    background-color:seashell;
 }
